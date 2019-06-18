@@ -1,0 +1,104 @@
+body{
+    width: 98%;
+    margin: 0 auto;
+}
+
+
+
+#nav, #image, #footer{
+    margin: 0.14em;
+}
+/******************************************************/
+/* **************    HEADER     **********************/
+/*************************************************** */
+#nav{
+
+    background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+}
+
+a.highlight:hover {
+
+    color:deepskyblue;
+}
+
+li{
+    display: inline-block;
+    padding: 0.3em;
+}
+li a {
+    text-decoration: none;
+    margin-right: 3em;
+    color: #ffffff;
+    font-family: Lobster;
+    font-size:25px;
+}
+
+li .Cake-font{
+    font-family: Lobster;
+    font-size: 28px;
+}
+
+#header-img{
+    width: 10%;
+    height: 10%;
+
+}
+/******************************************************/
+/* **************    MAIN CONTENT  **********************/
+/*************************************************** */
+
+
+
+
+section div{
+    display:inline-block;
+
+}
+
+section .cake-main{
+    width: 400px;
+    height: 50%;
+
+}
+
+section #box{
+     width:68%;
+     height:50%;
+     border: 0.250em dotted deeppink;
+     box-sizing: border-box;
+     padding: 1.250em;
+    float:right;
+
+ }
+
+section #box p{
+    font-size: 16px;
+    font-family: Arial;
+
+}
+
+section #box h2{
+    font-size: 35px;
+    color:deepskyblue;
+    text-align: center;
+    font-family: Lobster;
+}
+
+
+
+
+
+/******************************************************/
+/* **************    FOOTER    **********************/
+/*************************************************** */
+
+footer{
+    font-family: Lobster;
+    font-size: 1em;
+    color: #000000;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+}
