@@ -152,8 +152,8 @@ section #box h3 {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-    color: #fff;
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+    color: deeppink;
     text-align: center;
     font-size: 40px;
     font-family: Lobster, cursive;
@@ -165,8 +165,8 @@ section #box h3 {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-    color: #fff;
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+    color: deeppink;
     text-align: center;
     font-size: 40px;
     font-family: Lobster, cursive;
@@ -177,8 +177,8 @@ section #box h3 {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-    color: #fff;
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+    color: deeppink;
     text-align: center;
     font-size: 40px;
     font-family: Lobster, cursive;
@@ -267,9 +267,55 @@ section #box h3 {
 /* **************    CONTACT    **********************/
 /*************************************************** */
 
+div.container-contact{
+    max-width: 1400px;
+    margin: 40px auto 40px auto;
+    display: flex;
+    flex-flow: wrap;
+}
 
+.contact-us{
+    margin: 15px;
+    border: 3px solid #d299c2;
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    display: inline;
 
+}
 
+.contact-us h2{
+
+    color:deeppink;
+}
+form label {
+    font-size: 20px;
+    color:white;
+    font-family: 'Lobster', serif;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    margin: 5px;
+}
+.btn-borde {
+    padding: .375rem .75rem;
+    border: 2px solid deeppink;
+    border-radius: .25rem;
+    color: deeppink;
+    transition: color .15s ease-in-out,
+    background-color .15s ease-in-out;
+}
+
+.btn-borde:hover, .btn-borde:active, .btn-borde:focus {
+    color: #ffffff;
+    background-color: #d299c2;
+}
 
 
 
